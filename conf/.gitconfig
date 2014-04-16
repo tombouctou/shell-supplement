@@ -1,0 +1,19 @@
+[alias]
+st = status
+ci = commit
+br = branch
+co = checkout
+df = diff
+dw = diff --word-diff
+lg = log -p
+lol = log --graph --decorate --pretty=oneline --abbrev-commit
+lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+ola = log --pretty=format:"%h%x09%an%x09%ad%x09%s"
+llog = log --graph --date=local
+ls = ls-files
+undo = reset --hard
+pr = pull --rebase
+[color]
+ui = true
+[help]
+autocorrect = 1
